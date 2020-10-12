@@ -1,0 +1,20 @@
+image: gcc
+
+build:
+  stage: build
+
+  before_script:
+    - apt-get update 
+    - apt-get install -y cmake xorg-dev libglu1-mesa-dev
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
+
+  script: 
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make -j4
+
+  artifacts:
+    paths:
+      - build/main
