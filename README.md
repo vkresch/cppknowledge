@@ -19,7 +19,7 @@ opengl/Pilzschaf keeps track of the opengl tutorial by [Pilzschaf](https://www.y
 [Full playlist](https://www.youtube.com/playlist?list=PLStQc0GqppuWBDuNWnkQ8rzmyx35AINyt)
 
 ### Joey de Vries (https://learnopengl.com/)
-opengl/leanopengl keeps track of the opengl tutorial by [Pilzschaf](https://www.youtube.com/c/Pilzschaf).
+opengl/leanopengl keeps track of the opengl tutorial by Joey.
 
 ### Alexey (Tsoding)
 In progress ...
