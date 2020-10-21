@@ -5,6 +5,7 @@
 #include "72_pch.h" // This needs to be recompiled every single time
 
 // Compile with "g++ -std=c++11 72_pch.h"
+// http://mochan.info/c++/2019/11/12/pre-compiled-headers-gcc-clang-cmake.html
 
 int main(){
     std::cout << "Hello World" << std::endl;
